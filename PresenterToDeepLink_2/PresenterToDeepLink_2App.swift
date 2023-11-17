@@ -10,6 +10,7 @@ struct PresenterToDeepLink_2App: App {
                .environmentObject(presenter)
                .onOpenURL { url in
                    presenter.handleDeepLink(url: url)
+                   ///
                }
        }
    }
